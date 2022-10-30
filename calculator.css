@@ -1,0 +1,86 @@
+head {
+  display: none;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+#calc {
+  display: flex;
+  min-height: 95vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: azure;
+}
+
+#container {
+  background-color: rgb(75, 8, 46);
+  border: 10px double rgb(151, 86, 86);
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+  gap: 2px;
+}
+
+#display {
+  grid-column: 1 / -1;
+  background-color: #b2b9b7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 5px;
+  font-size: 5.5em;
+  font-weight: initial;
+  text-shadow: 1.3px 1.3px #86c7f0;
+  margin: 5px;
+  color: rgb(11, 57, 57);
+}
+
+button {
+  margin: 1px;
+  border-radius: 50%;
+  border: none;
+  font-weight: initial;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: rgb(228, 202, 222);
+}
+
+.clear {
+  background-color: rgb(108, 17, 3);
+}
+
+.sign {
+  background-color: rgb(108, 17, 3);
+}
+
+.percent {
+  background-color: rgb(108, 17, 3);
+}
+
+.operator {
+  background-color: #c46f95;
+}
+
+.operand {
+  background-color: #deb51f;
+}
+
+#zero {
+  grid-column: span 2;
+}
+
+.decimal {
+  background-color: #de4b11;
+}
+
+.equals {
+  background-color: #db155a;
+}
