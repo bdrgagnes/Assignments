@@ -1,0 +1,167 @@
+@font-face {
+    font-family:"Roboto";
+    src: url(./Fonts/Roboto/Roboto-Black.ttf) format("truetype");
+}
+
+ body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.container {
+    background-color: #1F2937;
+    margin-bottom: 10%;
+}
+
+div.container{
+   padding-bottom: 10%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+nav{
+    display: inline;
+}
+
+menu{
+    display: flex;  
+}
+
+header {
+    display: inline-flex;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.main, .airport {
+    padding-top: 10%; 
+}
+
+.airport {
+    height: 250px;
+    width: auto;
+    float: right;
+}
+
+.link {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.big {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .bluebox {
+    background-color: #3882F6;
+    color: white
+}
+
+button {
+    border-color: white;
+    border-style:solid;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 20px;
+    justify-self: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+}
+
+.thor {
+    text-align: right;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.bluebox{
+    border: 30px 100px 30px 100px;
+    margin: 10%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pictures {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.pic{
+    display: inline-block;
+    text-align: center;
+}
+
+.pic img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.pic span{
+    clear: both;
+    display:block;
+}
+
+.up {
+    display: flex;
+}
+
+.sign {
+    width: 130px;
+    position: center;
+}  
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+#infoid {
+    justify-content: center;
+}
+
